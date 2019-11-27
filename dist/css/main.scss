@@ -1,0 +1,23 @@
+/*
+** PlugDJ Metal Friday Tools
+*/
+
+@import "partials/vars";
+@import "partials/base";
+@import "partials/helpers";
+
+/**
+** Popup Specifics
+**/
+
+main {
+  margin: .5rem auto;
+  max-width: 95%;
+}
+
+.error {
+  color: white;
+  background-color: var(--error);
+  padding: .5rem 1rem;
+  width: 100%;
+}
