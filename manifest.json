@@ -1,15 +1,14 @@
 {
-
-  "manifest_version": 2,
-  "name": "Plug.DJ Metal Friday Tools",
-  "version": "0.01",
+  "name": "Plug.DJ MetalFriday Tools",
+  "version": "1.0",
+  "manifest_version" : 2.00,
   "description": "Plug.DJ tools for Metal Friday users",
   "homepage_url": "https://www.typocracy.net/",
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "addon@example.com",
-      "strict_min_version": "42.0"
+      "id": "bryan@typocracy.net",
+      "strict_min_version": "60.0"
     }
   },
 
@@ -30,7 +29,7 @@
 
   "browser_action": {
     "default_icon": "icons/icon-48.png",
-    "default_title": "Sketchy Metal",
+    "default_title": "Plug.DJ MetalFriday Tools",
     "default_popup": "dist/ui.html",
     "theme_icons": [{
       "light": "icons/icon-48-wh.png",

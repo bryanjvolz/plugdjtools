@@ -3,14 +3,13 @@
 
 //Initialize
 (function() {
-  console.log('Metal Friday Tools initalized');
+  console.log('Metal Friday Tools v1 initalized');
   hideAdvert();
   autoUpvote();
-  addEasySkipButton();
 })();
 
 function hideAdvert(){
-  /** Hide ad overlay **/
+  /** Hide ad overlay. Please contribute to PlugDJ to keep them alive **/
   var autohideAd = setInterval(function(){
     var advertOverlay = document.getElementById("community_right_rail");
     if( typeof advertOverlay !== 'undefined' ){
@@ -28,27 +27,6 @@ function autoUpvote(){
       console.log('autoThumbsUp btnClick');
     }
   },50000);
-}
-
-function addEasySkipButton(){
-  console.log("addEasySkipButton");
-  //.action.skip
-  //<i class="icon icon-skip"></i>
-  console.log('init skip btn');
-
-  var time = setInterval(function(){
-    var skipBtn = document.getElementsByClassName('skip')[0];
-    var controlBar = document.querySelectorAll('.room-controls--desktop ul')[0];
-    if( typeof skipBtn === 'undefined' ){
-      console.log('MF Tools - create skip btn');
-      var currentNode = document.activeElement;
-      $('#dj-canvas').focus();
-      currentNode.focus();
-      controlBar.innerHTML = controlBar.innerHTML + '<li class="room-controls--desktop__item"><button class="room-controls--desktop-btn btn-skip" title="Skip"><span class="sr-only">Skip</span><i class="icon icon-skip" aria-hidden="false"></i></button><span class="room-controls--desktop__item-value">SKIP</span></li>';
-      //mfBtnClick(skipBtn);
-    }
-  },5000);
-
 }
 
 var mfBtnClick = function (elem) {
