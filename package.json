@@ -21,8 +21,8 @@
   },
   "scripts": {
     "start:firefox": "web-ext run --source-dir ./",
-    "build" : "web-ext build --overwrite-dest",
-    "lint" : "web-ext lint"
+    "build": "web-ext build --overwrite-dest",
+    "lint": "web-ext lint"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
