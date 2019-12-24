@@ -1,7 +1,7 @@
 {
   "name": "Plug.DJ MetalFriday Tools",
   "version": "1.0",
-  "manifest_version" : 2.00,
+  "manifest_version" : 2,
   "description": "Plug.DJ tools for Metal Friday users",
   "homepage_url": "https://www.typocracy.net/",
 
